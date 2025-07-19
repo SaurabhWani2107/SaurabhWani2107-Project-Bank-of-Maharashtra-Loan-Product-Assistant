@@ -50,8 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+
 
 # pyenv
 .python-version
@@ -66,6 +65,3 @@ coverage.xml
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Output files
-*.txt 
