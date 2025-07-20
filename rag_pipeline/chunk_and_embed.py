@@ -7,6 +7,7 @@ import google.generativeai as genai
 import faiss
 import numpy as np
 from collections import Counter
+import logging
 
 # --- CONFIG ---
 DATA_DIR = "Extracteddata_scriptwise"
@@ -24,6 +25,17 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     raise ValueError("GOOGLE_API_KEY not found in .env file.")
 genai.configure(api_key=GOOGLE_API_KEY)
+
+# --- LOGGING SETUP ---
+LOG_DIR = "logs"
+LOG_FILE = os.path.join(LOG_DIR, "build.log")
+os.makedirs(LOG_DIR, exist_ok=True)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.FileHandler(LOG_FILE, mode="a"), logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
 
 # --- LOAD FILES ---
 def load_files(data_dir):
@@ -68,39 +80,45 @@ def embed_chunks(chunks):
 
 # --- MAIN ---
 def main():
-    if os.path.exists(INDEX_PATH) and os.path.exists(DOCSTORE_PATH):
-        print("Index and docstore already exist. Skipping embedding.")
-        return
+    try:
+        if os.path.exists(INDEX_PATH) and os.path.exists(DOCSTORE_PATH):
+            logger.info("Index and docstore already exist. Skipping embedding.")
+            print("Index and docstore already exist. Skipping embedding.")
+            return
 
-    print("Loading files...")
-    docs = load_files(DATA_DIR)
-    print(f"Loaded {len(docs)} files.")
-    print("Loaded files:", [doc["filename"] for doc in docs])
+        logger.info("Loading files...")
+        docs = load_files(DATA_DIR)
+        logger.info(f"Loaded {len(docs)} files: {[doc['filename'] for doc in docs]}")
 
-    print("Chunking documents...")
-    chunks = chunk_docs(docs)
-    print(f"Created {len(chunks)} chunks.")
+        logger.info("Chunking documents...")
+        chunks = chunk_docs(docs)
+        logger.info(f"Created {len(chunks)} chunks.")
 
-    # Print chunk count per file
-    file_counts = Counter([chunk["filename"] for chunk in chunks])
-    print("Chunks per file:", file_counts)
+        # Print chunk count per file
+        from collections import Counter
+        file_counts = Counter([chunk["filename"] for chunk in chunks])
+        logger.info(f"Chunks per file: {file_counts}")
 
-    print("Embedding chunks...")
-    embeddings = embed_chunks(chunks)
+        logger.info("Embedding chunks...")
+        embeddings = embed_chunks(chunks)
 
-    print("Building FAISS index...")
-    dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)
-    index.add(embeddings)
+        logger.info("Building FAISS index...")
+        dim = embeddings.shape[1]
+        index = faiss.IndexFlatL2(dim)
+        index.add(embeddings)
 
-    print(f"Saving FAISS index to {INDEX_PATH}")
-    faiss.write_index(index, INDEX_PATH)
+        logger.info(f"Saving FAISS index to {INDEX_PATH}")
+        faiss.write_index(index, INDEX_PATH)
 
-    print(f"Saving metadata to {DOCSTORE_PATH}")
-    with open(DOCSTORE_PATH, "w", encoding="utf-8") as f:
-        json.dump(chunks, f, ensure_ascii=False, indent=2)
+        logger.info(f"Saving metadata to {DOCSTORE_PATH}")
+        with open(DOCSTORE_PATH, "w", encoding="utf-8") as f:
+            json.dump(chunks, f, ensure_ascii=False, indent=2)
 
-    print("Done! Knowledge base is ready.")
+        logger.info("Done! Knowledge base is ready.")
+        print("Done! Knowledge base is ready.")
+    except Exception as e:
+        logger.exception("Error in main chunk_and_embed process.")
+        raise
 
 if __name__ == "__main__":
     main()

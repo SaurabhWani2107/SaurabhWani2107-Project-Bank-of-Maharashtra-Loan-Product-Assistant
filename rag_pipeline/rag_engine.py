@@ -16,10 +16,13 @@ GEN_MODEL = os.getenv("GEN_MODEL", "models/gemini-2.5-flash")
 TOP_K_DEFAULT = int(os.getenv("TOP_K_DEFAULT", 3))
 
 # --- LOGGING SETUP ---
+LOG_DIR = "logs"
+LOG_FILE = os.path.join(LOG_DIR, "build.log")
+os.makedirs(LOG_DIR, exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler()]
+    handlers=[logging.FileHandler(LOG_FILE, mode="a"), logging.StreamHandler()]
 )
 logger = logging.getLogger(__name__)
 
@@ -103,6 +106,7 @@ def is_greeting(user_input: str) -> bool:
 # --- MAIN RAG FUNCTION ---
 def query_rag(user_question: str, top_k: int = TOP_K_DEFAULT, return_chunks: bool = False):
     user_question = sanitize_user_input(user_question)
+    logger.info(f"RAG received question: {user_question}")
     if not user_question:
         logger.warning("Empty user question received.")
         return ("Please enter a valid question.", []) if return_chunks else "Please enter a valid question."
@@ -110,16 +114,19 @@ def query_rag(user_question: str, top_k: int = TOP_K_DEFAULT, return_chunks: boo
     # --- Handle greetings ---
     if is_greeting(user_question):
         greeting_response = "Hello! How can I assist you with your Bank of Maharashtra loan queries today?"
+        logger.info(f"Greeting detected. Responding: {greeting_response}")
         return (greeting_response, []) if return_chunks else greeting_response
 
     try:
         index, chunks = load_faiss_and_metadata()
     except Exception as e:
+        logger.error("System error: Unable to load knowledge base.")
         return ("System error: Unable to load knowledge base.", []) if return_chunks else "System error: Unable to load knowledge base."
 
     try:
         query_emb = embed_query(user_question)
     except Exception as e:
+        logger.error("System error: Unable to process your question.")
         return ("System error: Unable to process your question.", []) if return_chunks else "System error: Unable to process your question."
 
     try:
@@ -153,6 +160,7 @@ def query_rag(user_question: str, top_k: int = TOP_K_DEFAULT, return_chunks: boo
         return ("System error: Unable to generate an answer at this time.", []) if return_chunks else "System error: Unable to generate an answer at this time."
 
     answer = format_answer_user_friendly(answer)
+    logger.info(f"RAG response: {answer}")
 
     try:
         log_query(user_question, answer)

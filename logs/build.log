@@ -1,0 +1,28 @@
+2025-07-20 22:17:55,955 [INFO] Received question: Hi
+2025-07-20 22:17:55,961 [INFO] RAG received question: Hi
+2025-07-20 22:17:55,963 [INFO] Greeting detected. Responding: Hello! How can I assist you with your Bank of Maharashtra loan queries today?
+2025-07-20 22:17:56,179 [INFO] Response: Hello! How can I assist you with your Bank of Maharashtra loan queries today?
+2025-07-20 22:18:08,679 [INFO] Received question: What are all types of loans in this docs
+2025-07-20 22:18:08,683 [INFO] RAG received question: What are all types of loans in this docs
+2025-07-20 22:18:11,760 [INFO] RAG response: Here are the key points:
+• The types of loans mentioned in the document are:
+• *   Maha Bank Personal Loan Scheme For Salaried Customer
+• *   Maha Bank Personal Loan Scheme For Professionals
+• *   Maha Bank Personal Loan Scheme For Business Class
+• *   Maha Super Housing Loan Scheme (Housing loan to General Public)
+2025-07-20 22:18:11,926 [INFO] Response: Here are the key points:
+• The types of loans mentioned in the document are:
+• *   Maha Bank Personal Loan Scheme For Salaried Customer
+• *   Maha Bank Personal Loan Scheme For Professionals
+• *   Maha Bank Personal Loan Scheme For Business Class
+• *   Maha Super Housing Loan Scheme (Housing loan to General Public)
+2025-07-20 22:18:23,700 [INFO] Received question: interest rates for Maha Bank Personal Loan Scheme For Salaried Customer
+2025-07-20 22:18:23,702 [INFO] RAG received question: interest rates for Maha Bank Personal Loan Scheme For Salaried Customer
+2025-07-20 22:18:28,044 [INFO] RAG response: Here are the key points:
+• I don't know.
+• The provided context states "To know more Interest Rates & Charges about other Personal Loan Schemes - Personal Loan scheme for Salaried customers Click here", indicating that the specific interest rates for salaried customers are available elsewhere, not directly in the provided text.
+• The general interest rate mentioned is 9.00% P.A.*, but it's not specified if this is the exact rate for salaried customers or if it varies.
+2025-07-20 22:18:28,051 [INFO] Response: Here are the key points:
+• I don't know.
+• The provided context states "To know more Interest Rates & Charges about other Personal Loan Schemes - Personal Loan scheme for Salaried customers Click here", indicating that the specific interest rates for salaried customers are available elsewhere, not directly in the provided text.
+• The general interest rate mentioned is 9.00% P.A.*, but it's not specified if this is the exact rate for salaried customers or if it varies.
