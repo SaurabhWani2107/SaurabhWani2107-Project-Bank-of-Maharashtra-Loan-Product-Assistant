@@ -21,7 +21,8 @@ class AskRequest(BaseModel):
 class AskResponse(BaseModel):
     question: str
     answer: str
-    source_chunks: list[str]
+    # Remove source_chunks from the response model
+    # source_chunks: list[str]
 
 @app.get("/")
 def read_root():
@@ -38,12 +39,12 @@ def save_chat_to_db(question, answer):
 async def ask(request: Request):
     data = await request.json()
     question = data["query"]
-    answer, source_chunks = query_rag(question)
-    if not answer or not source_chunks:
+    answer = query_rag(question)  # Only get the answer, not source_chunks
+    if not answer:
         raise HTTPException(status_code=400, detail="Invalid or empty query.")
     save_chat_to_db(question, answer)
     return AskResponse(
         question=question,
         answer=answer,
-        source_chunks=source_chunks
+        # Do not include source_chunks
     ) 

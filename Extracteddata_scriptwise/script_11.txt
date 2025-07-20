@@ -1,47 +1,50 @@
---- Loan against Property –for Individuals(LAP) Page ---
-Title: Personal Loan Against Property (LAP) - Bank of Maharashtra
-URL: https://bankofmaharashtra.in/loan-against-property
-
---- Loan against Property –for Individuals(LAP) ---
-
+Loan against Property –for Individuals(LAP)
 Particulars: Name of the scheme
 Scheme Guidelines: Loan against Property –for Individuals
 
+Loan against Property –for Individuals(LAP)
 Particulars: Purpose of loan
 Scheme Guidelines: To cater to the requirements of meeting personal expenses.
 
+Loan against Property –for Individuals(LAP)
 Particulars: Eligibility
 Scheme Guidelines: Permanent Employees of Central/ State Govt. /Public Sector Undertakings (PSUs) (including Schools/ Colleges/ Educational Institutions), and Individual Businessmen, professionals and Self-employed individuals who own residential property/ commercial property /or building in his/her own name which are unencumbered and under self-occupation.
 
+Loan against Property –for Individuals(LAP)
 Particulars: Min Annual Income
 Scheme Guidelines: Minimum annual Income – 5.00 Lakhs.
 
-
+Loan against Property –for Individuals(LAP)
 Particulars: Maximum Quantum of Loan  
 Scheme guidelines: Based on repaying capacity and subject to the ceilings given below  
 Min Loan Amount: 0.05 crore  
 Max Loan Amount (Metros): 10.00 crore  
 Max Loan Amount (Other Centres): 5.00 crore  
 
-
+Loan against Property –for Individuals(LAP)
 Particulars: Margin
 Scheme Guidelines: For Loans up to Rs.1.00 Cr:  40% of the Realizable value of the property  For Loans above Rs.1.00 Cr:  50% of the Realizable value of the property
 
+Loan against Property –for Individuals(LAP)
 Particulars: Repayment Period
 Scheme Guidelines: Maximum Repayment period of 10 years or on borrower reaching the age of 75 years whichever is earlier.
 
+Loan against Property –for Individuals(LAP)
 Particulars: Rate of Interest
 Scheme Guidelines: Click here to view the Interest Rate
 
+Loan against Property –for Individuals(LAP)
 Particulars: Deduction
 Scheme Guidelines: Not to Exceed 60% of the Gross Income including Proposed EMI / Notional Interest.
 
+Loan against Property –for Individuals(LAP)
 Particulars: Security
 Scheme Guidelines: Mortgage of the Property
 
+Loan against Property –for Individuals(LAP)
 Particulars: Processing Fee
 Scheme Guidelines: 1 % of the loan amount + GST
 
-
+Loan against Property –for Individuals(LAP)
 --- Apply Now ---
 Link: //digileads.bankofmaharashtra.in/lgproperty?bom

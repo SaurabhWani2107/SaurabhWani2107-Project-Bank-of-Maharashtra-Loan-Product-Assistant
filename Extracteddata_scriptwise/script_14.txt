@@ -1,14 +1,10 @@
---- Mahabank Rooftop Solar Panel Loan Scheme Page ---
-Title: Mahabank Rooftop Solar Panel Loan scheme: PM Suryaghar
-URL: https://bankofmaharashtra.in/mahabank-rooftop-solar-panel-loan
-
 --- Mahabank Rooftop Solar Panel Loan scheme ---
-S No.: 1
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Purpose
 Eligibility Condition (Up to 3KW): Loan is provided for installation of Grid connected RTS (Roof Top Solar) upto 3 KW for residential purpose only.
 Eligibility Condition (Above 3KW to 10KW): Loan is provided for installation of Grid connected RTS (Roof Top Solar) (Above 3 KW to 10 KW) for residential purpose only.
 ------------------------------------------------------------
-S No.: 2
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Eligibility
 Eligibility Condition (Up to 3KW): 
   - All Individual Applicants
@@ -25,12 +21,12 @@ Eligibility Condition (Above 3KW to 10KW):
   - Latest Electricity Bill.
   - Savings Account with us mandatorily to be opened before availing of the loan
 ------------------------------------------------------------
-S No.: 3
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Annual Income Criteria:-
 Eligibility Condition (Up to 3KW): No Minimum Annual Income criteria.
 Eligibility Condition (Above 3KW to 10KW): Minimum Annual Income – Rs. 3.00 Lakh
 ------------------------------------------------------------
-S No.: 4
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Minimum and Maximum Loan amount
 Eligibility Condition (Up to 3KW): Minimum Limit: Rs. 10,000/-
 
@@ -39,7 +35,7 @@ Eligibility Condition (Above 3KW to 10KW): Minimum Limit: Rs. 10,000/-
 
 Maximum Limit: Rs 10.00 Lakh
 ------------------------------------------------------------
-S No.: 5
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Margin
 Eligibility Condition (Up to 3KW): Minimum Margin – 10% of project cost.
 
@@ -48,7 +44,7 @@ Eligibility Condition (Above 3KW to 10KW): Minimum Margin - 20% of project cost
 
 (The project cost includes Design, Supply, Installation, testing & commissioning of Grid connected Rooftop Solar Photovoltaic Systems in residential premises including maintenance).
 ------------------------------------------------------------
-S No.: 6
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Age
 Eligibility Condition (Up to 3KW): Minimum Age of applicant: -21 Years,
 
@@ -57,12 +53,12 @@ Eligibility Condition (Above 3KW to 10KW): Minimum Age of applicant: -21 Years,
 
 Maximum -70- Years (Including repayment period)
 ------------------------------------------------------------
-S No.: 7
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Subsidy
 Eligibility Condition (Up to 3KW): 
 Eligibility Condition (Above 3KW to 10KW): 
 ------------------------------------------------------------
-S.No: 7  
+Mahabank Rooftop Solar Panel Loan scheme
 Particulars: Subsidy  
 Scheme guidelines: As applicable under Central Government Rooftop Solar Subsidy Programme and any state subsidy program for Rooftop Solar
 
@@ -81,7 +77,7 @@ Claim Process: To be claimed by borrower (Loan Account Number to be provided for
 Compliance: Extant guidelines of Central/State Government subsidy scheme are to be complied with
 
 ------------------------------------------------------------
-S.No: 8  
+Mahabank Rooftop Solar Panel Loan scheme
 Particulars: Rate of Interest  
 Scheme guidelines: Applicable for Home Loan and Non-Home Loan borrowers with minimum CIBIL Score of 650 and above (NTC also eligible)
 
@@ -110,22 +106,22 @@ For Home Loan customers:
 Note: Same rate as Home Loan
 
 ------------------------------------------------------------
-S No.: 9
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Moratorium
 Eligibility Condition (Up to 3KW): Upto 6 Months
 Eligibility Condition (Above 3KW to 10KW): Upto 6 Months
 ------------------------------------------------------------
-S No.: 10
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Loan repayment period
 Eligibility Condition (Up to 3KW): 120 Months including moratorium
 Eligibility Condition (Above 3KW to 10KW): 120 Months including moratorium
 ------------------------------------------------------------
-S No.: 11
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Processing Fees
 Eligibility Condition (Up to 3KW): Nil
 Eligibility Condition (Above 3KW to 10KW): Nil
 ------------------------------------------------------------
-S No.: 12
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Account Handling Charges (Includes Documentation, Inspection/supervision, NeSL and CIBIL charges)
 Eligibility Condition (Up to 3KW): Rs. 500 + 0.20 % of Loan amount
 
@@ -138,12 +134,12 @@ Minimum Rs 500/-
 
 Maximum Rs 2500/-
 ------------------------------------------------------------
-S No.: 13
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Security
 Eligibility Condition (Up to 3KW): Primary Security: - Hypothecation of Asset purchased i.e. Solar Roof top plant /setup. Registration of Hypothecation charges with CERSAI shall be done.
 Eligibility Condition (Above 3KW to 10KW): Primary Security: - Hypothecation of Asset purchased i.e. Solar Roof top plant /setup. Registration of Hypothecation charges with CERSAI shall be done.
 ------------------------------------------------------------
-S No.: 14
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Disbursement
 Eligibility Condition (Up to 3KW): Disbursement to be made directly to the Vendor / EPC Contractor after submission of all the required feasibility reports as mandated by MNRE.
 
@@ -152,7 +148,7 @@ Eligibility Condition (Above 3KW to 10KW): Disbursement to be made directly to t
 
 (Subsidy to be claimed by Borrower / Vendor quoting the Loan Account Number)
 ------------------------------------------------------------
-S No.: 15
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: In Principal offer
 Eligibility Condition (Up to 3KW): 
   - Digital In-Principle Sanction to be given based on Self Declaration by the Applicant. Final Sanction to be based on verification of relevant documents and assessment by the Banks.
@@ -161,7 +157,7 @@ Eligibility Condition (Above 3KW to 10KW):
   - Digital In-Principle Sanction to be given based on Self Declaration by the Applicant. Final Sanction to be based on verification of relevant documents and assessment by the Banks.
   - All applications will be sourced through Jan Samarth Portal Only Available for Self-Sourced Journey as well as assisted journey.
 ------------------------------------------------------------
-S No.: 16
+Mahabank Rooftop Solar Panel Loan scheme
 Parameter: Link for loan application
 Eligibility Condition (Up to 3KW): To apply register at https://pmsuryaghar.gov.in
 

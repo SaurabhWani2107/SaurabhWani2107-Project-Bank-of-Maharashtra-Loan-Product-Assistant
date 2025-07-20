@@ -1,17 +1,15 @@
 --- Intro ---
-Mahabank Vehicle Loan Scheme for Purchase of Second Hand Car
+Mahabank Vehicle Loan Scheme for Second Hand Car
 (Pre owned Cars)
 We have finance schemes that translate your dreams into reality.
-S.No.
 
---- Scheme Table ---
 
-S.No: 1
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Name of the scheme
 Scheme guidelines:
 Mahabank Vehicle Loan Scheme: For Purchasing Second Hand Car (Pre owned Cars)
 
-S.No: 2
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Purpose of loan
 Scheme guidelines:
 Purchase of second hand four wheelers not older than 3 years.
@@ -27,9 +25,7 @@ Audi Approved Plus – Audi India
 Mercedes Pre-Owned Car – Mercedes Benz India Pvt. Ltd.
 Authorized Pre-owned Car Platforms – Car Dekho, Quickr, OLX Car, Car Trade, CAR24
 
-
-
-S.No: 3
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Eligibility
 Scheme guidelines:
   - Confirmed Salaried Employees of Central Govt. / State Govt. / Public Sector Undertakings/ Govt. aided Educational Institute / Private / Public Limited Company /etc. with continuous service for minimum 1 year is required.
@@ -38,15 +34,13 @@ Scheme guidelines:
   - Businessman/ Independent Entrepreneurs who have regular source of income.
   - Farmers having land holding engaged in production oriented agricultural activities and in other allied activities.
 
-
-S.No: 4
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Min Annual Income
 Scheme guidelines:
   - For Salaried: Rs. 3.00 lakh (last year income) - Minimum past 2 years ITR/Form 16 from the Employer is required.
   - For Other Individuals: Rs.3.00 lakh (last year income) – Minimum past 2 years ITR with supporting documents are required..
 
-
-S.No: 5
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Eligible Loan Amount
 Scheme guidelines:
 Maximum loan amount will be assessed on the basis of Permissible Deduction norms
@@ -59,42 +53,36 @@ Maximum Quantum of Loan will be Lowest of the following.
 
 70 % of latest Market value as per valuation certificate issued by certified pre-owned car Dealer / 70% of invoice value from showroom of authorized dealers.
 
- Or
+ Or
 
 100% of Insured Declared Value (IDV) as per Motor Insurance Policy.
 
-
-S.No: 6
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Margin
 Scheme guidelines:
 Minimum 30 % of the lasts Market value as per valuation certificate issued by certified pre-owned car Dealer or 30% of invoice value from showroom of authorized dealers.
 
-
-S.No: 7
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Repayment Period
 Scheme guidelines:
 Maximum 60 months
 
-
-S.No: 8
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Rate of Interest
 Scheme guidelines:
 Click here to view the Interest Rate
 
-
-S.No: 9
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Deduction
 Scheme guidelines:
 Total deductions including proposed EMI should not exceed 65 % of Gross Monthly Income (salaried) / Gross Average Annual Income (Non salaried)
 
-
-S.No: 10
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Security
 Scheme guidelines:
 Hypothecation of vehicle purchased
 
-
-S.No: 11
+Mahabank Vehicle Loan Scheme for Second Hand Car
 Particulars: Processing Fee
 Scheme guidelines:
 0.50% of Loan Amount
