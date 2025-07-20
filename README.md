@@ -9,6 +9,7 @@ A full-stack Retrieval-Augmented Generation (RAG) application for answering Bank
 - [Project Structure](#project-structure)
 - [Folder & File Details](#folder--file-details)
 - [Features](#features)
+- [Project Evaluation Details](#project-evaluation-details)
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
 - [Commands](#commands)
@@ -139,6 +140,72 @@ BOM/
 - **PostgreSQL Database:** Stores chat history and query logs.
 - **Modern Frontend:** Next.js React app for user interaction.
 - **Logging:** Centralized logs for all backend and pipeline operations.
+
+---
+
+### Project Setup
+
+See the [Setup & Installation](#setup--installation) section below for step-by-step instructions on setting up the backend, frontend, and data pipeline. The process includes installing Python and Node.js dependencies, configuring environment variables, running web scrapers, chunking and embedding data, and starting both backend and frontend servers.
+
+---
+
+### Architectural Decisions
+
+#### Libraries
+
+- **Web Scraping:**  
+  We chose **Playwright** for scraping because it handles dynamic, JavaScript-heavy government websites more robustly than alternatives like BeautifulSoup or Selenium. Playwright’s headless browser automation allows us to interact with complex page elements and extract structured data even from sites with heavy client-side rendering.
+- **Data Processing:**  
+  Standard Python libraries (e.g., `pandas`, `re`, `json`) are used for cleaning and structuring the scraped data. This ensures flexibility and easy integration with the rest of the pipeline.
+- **RAG Pipeline:**  
+  - **FAISS** is used for fast vector similarity search, enabling efficient retrieval of relevant knowledge chunks.
+  - **Google Gemini API** is used for both embedding and LLM inference, providing state-of-the-art language understanding and generation.
+
+#### Data Strategy
+
+- **Chunking Approach:**  
+  Text data from each scraped `.txt` file is split into overlapping chunks of a fixed size (e.g., 500 tokens with 100-token overlap). This strategy ensures that each chunk contains enough context for meaningful retrieval, while the overlap prevents information loss at chunk boundaries. The chunk size was chosen to balance retrieval granularity and LLM context window limitations.
+
+#### Model Selection
+
+- **Embedding Model:**  
+  We use `embedding-001` from Google Gemini. This model was selected for its strong performance on semantic similarity tasks, multilingual support, and seamless integration with the Gemini LLM.
+- **LLM:**  
+  The main language model is Google Gemini 2.5 flash, chosen for its accuracy, speed, and ability to handle retrieval-augmented prompts effectively and also it is open source.
+
+#### AI Tools Used
+
+- **Cursor:** Used for code navigation, refactoring, and rapid prototyping.
+- **NotebookLM:** Assisted in requirement understanding.
+- **ChatGPT:** Used for brainstorming, code review, and documentation drafting.
+
+---
+
+### Challenges Faced
+
+Scraping data from government websites proved tricky and difficult due to:
+- Highly dynamic pages with frequent redirects and JavaScript-rendered content.
+- Non-structured, inconsistent data formats across different loan product pages.
+- Navigating through multiple layers of links and handling session/cookie requirements.
+- Occasional anti-bot measures and rate limiting.
+
+**Solutions:**  
+We leveraged Playwright’s robust automation to simulate real user interactions, implemented retry logic for failed requests, and developed custom parsers to handle messy or irregular data layouts.
+
+---
+
+### Potential Improvements
+
+- **Intent Handling:**  
+  Integrate an agentic framework to recognize user intent and dynamically decide whether to fetch responses from the RAG pipeline, answer general queries, or perform live web lookups.
+- **Frontend Enhancements:**  
+  Improve the user interface for a more engaging chat experience, add user role-based login, and enable persistent chat history for returning users.
+- **Data Pipeline:**  
+  Automate periodic re-scraping and re-indexing to keep the knowledge base up to date.
+- **Evaluation & Monitoring:**  
+  Add analytics for user queries, retrieval accuracy, and LLM response quality.
+- **Scalability:**  
+  Containerize the application for easier deployment and scaling, and consider supporting additional banks or financial products.
 
 ---
 
@@ -279,5 +346,3 @@ npm run dev
 ## Contact
 
 For questions or support, open an issue or contact the maintainer.
-
-
