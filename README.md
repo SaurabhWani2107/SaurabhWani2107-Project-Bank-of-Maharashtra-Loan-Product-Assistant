@@ -15,7 +15,6 @@ A full-stack Retrieval-Augmented Generation (RAG) application for answering Bank
 - [Commands](#commands)
 - [Development & Logs](#development--logs)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
