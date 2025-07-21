@@ -224,7 +224,8 @@ export default function ChatPage() {
 
       {/* Footer */}
       <footer className="py-3 text-center text-blue-900 text-xs bg-blue-50 border-t font-light">
-        &copy; {new Date().getFullYear()} Bank of Maharashtra Loan Assistant
+        &copy; {new Date().getFullYear()} Bank of Maharashtra Loan Assistant<br />
+        Developed by Saurabh Wani
       </footer>
     </div>
   );

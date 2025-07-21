@@ -26,3 +26,357 @@
 • I don't know.
 • The provided context states "To know more Interest Rates & Charges about other Personal Loan Schemes - Personal Loan scheme for Salaried customers Click here", indicating that the specific interest rates for salaried customers are available elsewhere, not directly in the provided text.
 • The general interest rate mentioned is 9.00% P.A.*, but it's not specified if this is the exact rate for salaried customers or if it varies.
+2025-07-20 23:43:56,654 [INFO] Received question: what are features of Maha Super Housing Loan scheme
+2025-07-20 23:43:56,674 [INFO] RAG received question: what are features of Maha Super Housing Loan scheme
+2025-07-20 23:44:00,287 [INFO] RAG response: Here are the key points:
+• Here are the features of the Maha Super Housing Loan Scheme:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-20 23:44:00,673 [INFO] Response: Here are the key points:
+• Here are the features of the Maha Super Housing Loan Scheme:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-20 23:56:43,966 [INFO] Received question: What are the features Maha super housing loan scheme
+2025-07-20 23:56:43,968 [INFO] RAG received question: What are the features Maha super housing loan scheme
+2025-07-20 23:56:47,196 [INFO] RAG response: Here are the key points:
+• The features of the Maha Super Housing Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-20 23:56:47,340 [INFO] Response: Here are the key points:
+• The features of the Maha Super Housing Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-20 23:59:10,142 [INFO] Received question: Hi
+2025-07-20 23:59:10,142 [INFO] RAG received question: Hi
+2025-07-20 23:59:10,142 [INFO] Greeting detected. Responding: Hello! How can I assist you with your Bank of Maharashtra loan queries today?
+2025-07-20 23:59:10,187 [INFO] Response: Hello! How can I assist you with your Bank of Maharashtra loan queries today?
+2025-07-20 23:59:21,764 [INFO] Received question: Tell me about the loan schemes
+2025-07-20 23:59:21,765 [INFO] RAG received question: Tell me about the loan schemes
+2025-07-20 23:59:24,675 [INFO] RAG response: Here are the key points:
+• The loan schemes available are:
+• *   Mahabank Personal Loan Scheme
+• *   Maha Bank Personal Loan Scheme For Salaried Customer
+• *   Maha Bank Personal Loan Scheme For Professionals
+• *   Maha Bank Personal Loan Scheme For Business Class
+• *   Maha Super Car Loan Scheme
+2025-07-20 23:59:24,771 [INFO] Response: Here are the key points:
+• The loan schemes available are:
+• *   Mahabank Personal Loan Scheme
+• *   Maha Bank Personal Loan Scheme For Salaried Customer
+• *   Maha Bank Personal Loan Scheme For Professionals
+• *   Maha Bank Personal Loan Scheme For Business Class
+• *   Maha Super Car Loan Scheme
+2025-07-20 23:59:37,105 [INFO] Received question: What is Mahabank personla loan scheme
+2025-07-20 23:59:37,105 [INFO] RAG received question: What is Mahabank personla loan scheme
+2025-07-20 23:59:40,158 [INFO] RAG response: Here are the key points:
+• A personal loan is a type of unsecured credit offered by Mahabank that can be used for a wide range of personal needs such as:
+• *   Home renovation
+• *   Wedding expenses
+• *   Medical emergencies
+• *   Travel
+• *   Debt repayment
+• *   Bill payments
+• Key features of the Mahabank Personal Loan Scheme:
+• *   It does not require any collateral.
+• *   It involves minimal documentation.
+• *   Repayment is done in EMIs (Equated Monthly Installments), automatically debited from your bank account.
+• To avail it:
+• *   Applicants need to submit a loan application.
+• *   Upon fulfilling the eligibility criteria, an offer indicating the sanctioned amount, tenure, and interest rate is provided.
+• *   Once the offer is accepted, the loan amount is instantly disbursed to the applicant’s bank account.
+2025-07-20 23:59:40,165 [INFO] Response: Here are the key points:
+• A personal loan is a type of unsecured credit offered by Mahabank that can be used for a wide range of personal needs such as:
+• *   Home renovation
+• *   Wedding expenses
+• *   Medical emergencies
+• *   Travel
+• *   Debt repayment
+• *   Bill payments
+• Key features of the Mahabank Personal Loan Scheme:
+• *   It does not require any collateral.
+• *   It involves minimal documentation.
+• *   Repayment is done in EMIs (Equated Monthly Installments), automatically debited from your bank account.
+• To avail it:
+• *   Applicants need to submit a loan application.
+• *   Upon fulfilling the eligibility criteria, an offer indicating the sanctioned amount, tenure, and interest rate is provided.
+• *   Once the offer is accepted, the loan amount is instantly disbursed to the applicant’s bank account.
+2025-07-21 00:00:03,869 [INFO] Received question: what are the features of Maha Super Car Loan Scheme
+2025-07-21 00:00:03,869 [INFO] RAG received question: what are the features of Maha Super Car Loan Scheme
+2025-07-21 00:00:07,406 [INFO] RAG response: I don't know. The provided context only details the features of the "Maha Super Green Car Loan Scheme," not the "Maha Super Car Loan Scheme."
+2025-07-21 00:00:07,411 [INFO] Response: I don't know. The provided context only details the features of the "Maha Super Green Car Loan Scheme," not the "Maha Super Car Loan Scheme."
+2025-07-21 00:00:20,497 [INFO] Received question: What are the features and benefits of Maha Super Car Loan Scheme
+2025-07-21 00:00:20,497 [INFO] RAG received question: What are the features and benefits of Maha Super Car Loan Scheme
+2025-07-21 00:00:23,146 [INFO] RAG response: Here are the key points:
+• The features and benefits of Maha Super Car Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Car Dealers
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.25 % Concession in ROI for Corporate salary account Holder and Existing Housing Loan borrower
+• *   Maximum Funding 90%
+• *   Interest charged on daily reducing Balance
+• *   No Pre-Payment / Pre-closure / Part payment Charges
+• *   Quick turnaround time
+2025-07-21 00:00:23,152 [INFO] Response: Here are the key points:
+• The features and benefits of Maha Super Car Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Car Dealers
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.25 % Concession in ROI for Corporate salary account Holder and Existing Housing Loan borrower
+• *   Maximum Funding 90%
+• *   Interest charged on daily reducing Balance
+• *   No Pre-Payment / Pre-closure / Part payment Charges
+• *   Quick turnaround time
+2025-07-21 00:02:46,320 [INFO] Received question: tell me more about the schemes
+2025-07-21 00:02:46,320 [INFO] RAG received question: tell me more about the schemes
+2025-07-21 00:02:49,715 [INFO] RAG response: Here are the key points:
+• Here are the details about the schemes mentioned in the context:
+• *   **Pradhan Mantri Awas Yojana – Urban 2.0**
+• *   The subsidy will be provided to beneficiaries who have submitted an approved layout plan to the Banks as per the guidelines of States/UTs.
+• *   However, the layout plan may not be insisted upon by Banks where States/UTs have provided an exemption for the construction of houses having a provision of deemed approval or a pre-approved building plan.
+• *   **Mahabank Salary Gain Scheme**
+• *   No further details are provided in the context other than the scheme name.
+• *   **Central Government Rooftop Solar Subsidy Programme** and **any state subsidy program for Rooftop Solar**
+• *   Subsidy is provided as applicable under these programs.
+2025-07-21 00:02:49,818 [INFO] Response: Here are the key points:
+• Here are the details about the schemes mentioned in the context:
+• *   **Pradhan Mantri Awas Yojana – Urban 2.0**
+• *   The subsidy will be provided to beneficiaries who have submitted an approved layout plan to the Banks as per the guidelines of States/UTs.
+• *   However, the layout plan may not be insisted upon by Banks where States/UTs have provided an exemption for the construction of houses having a provision of deemed approval or a pre-approved building plan.
+• *   **Mahabank Salary Gain Scheme**
+• *   No further details are provided in the context other than the scheme name.
+• *   **Central Government Rooftop Solar Subsidy Programme** and **any state subsidy program for Rooftop Solar**
+• *   Subsidy is provided as applicable under these programs.
+2025-07-21 00:02:57,857 [INFO] Received question: what the pm yojana
+2025-07-21 00:02:57,858 [INFO] RAG received question: what the pm yojana
+2025-07-21 01:22:49,333 [INFO] Received question: What are the features of Maha Super Housing Loan scheme
+2025-07-21 01:22:49,441 [INFO] RAG received question: What are the features of Maha Super Housing Loan scheme
+2025-07-21 01:22:54,451 [INFO] RAG response: Here are the key points:
+• The features of the Maha Super Housing Loan scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:22:57,497 [INFO] Response: Here are the key points:
+• The features of the Maha Super Housing Loan scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:26:50,711 [INFO] Received question: What are the features of Maha Super car loan
+2025-07-21 01:26:50,714 [INFO] RAG received question: What are the features of Maha Super car loan
+2025-07-21 01:26:54,296 [INFO] RAG response: Here are the key points:
+• The features of the Maha Super Car Loan are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Car Dealers
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty / No Pre-payment / Pre-closure / Part payment Charges
+• *   0.25 % Concession in ROI for Corporate salary account Holder and Existing Housing Loan borrower
+• *   Maximum Funding 90%
+• *   Interest charged on daily reducing Balance
+• *   Quick turnaround time
+2025-07-21 01:26:54,579 [INFO] Response: Here are the key points:
+• The features of the Maha Super Car Loan are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Car Dealers
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty / No Pre-payment / Pre-closure / Part payment Charges
+• *   0.25 % Concession in ROI for Corporate salary account Holder and Existing Housing Loan borrower
+• *   Maximum Funding 90%
+• *   Interest charged on daily reducing Balance
+• *   Quick turnaround time
+2025-07-21 01:32:03,072 [INFO] Received question: What are the features of Maha Super Housing Loan Scheme
+2025-07-21 01:32:03,072 [INFO] RAG received question: What are the features of Maha Super Housing Loan Scheme
+2025-07-21 01:32:06,117 [INFO] RAG response: Here are the key points:
+• The features of the Maha Super Housing Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:32:06,169 [INFO] Response: Here are the key points:
+• The features of the Maha Super Housing Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:35:53,646 [INFO] Received question: What are features of Maha Super Car loan
+2025-07-21 01:35:53,646 [INFO] RAG received question: What are features of Maha Super Car loan
+2025-07-21 01:35:56,365 [INFO] RAG response: Here are the key points:
+• The features of the Maha Super Car Loan are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Car Dealers
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.25 % Concession in ROI for Corporate salary account Holder and Existing Housing Loan borrower
+• *   Maximum Funding 90%
+• *   Interest charged on daily reducing Balance
+• *   No Pre-Payment / Pre-closure / Part payment Charges
+• *   Quick turnaround time
+2025-07-21 01:35:56,504 [INFO] Response: Here are the key points:
+• The features of the Maha Super Car Loan are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Car Dealers
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.25 % Concession in ROI for Corporate salary account Holder and Existing Housing Loan borrower
+• *   Maximum Funding 90%
+• *   Interest charged on daily reducing Balance
+• *   No Pre-Payment / Pre-closure / Part payment Charges
+• *   Quick turnaround time
+2025-07-21 01:41:22,824 [INFO] Received question: What are the features of Maha Super Housing loan scheme
+2025-07-21 01:41:22,824 [INFO] RAG received question: What are the features of Maha Super Housing loan scheme
+2025-07-21 01:41:26,115 [INFO] RAG response: Here are the key points:
+• Here are the features of the Maha Super Housing Loan Scheme:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:41:26,202 [INFO] Response: Here are the key points:
+• Here are the features of the Maha Super Housing Loan Scheme:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:43:44,568 [INFO] Received question: What are the features of Maha Super Housing loan scheme
+2025-07-21 01:43:44,569 [INFO] RAG received question: What are the features of Maha Super Housing loan scheme
+2025-07-21 01:43:47,387 [INFO] RAG response: Here are the key points:
+• The features of the Maha Super Housing Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
+2025-07-21 01:43:47,397 [INFO] Response: Here are the key points:
+• The features of the Maha Super Housing Loan Scheme are:
+• *   Low EMI
+• *   Higher Loan Amount
+• *   Track my Loan
+• *   Approved Projects
+• *   Simplified Disbursement
+• *   Low Processing Fee
+• *   No Hidden Charges
+• *   No Prepayment Penalty
+• *   0.05% concession to women and defence personal.
+• *   Maximum Tenure up to 30 Years / up to 75 years of age.
+• *   No Pre-Payment / Pre-closure / Part payment Charges.
+• *   Concession in ROI for Housing Loan borrower in Car Loan & Education Loan.
